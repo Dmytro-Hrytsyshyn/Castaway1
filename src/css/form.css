@@ -1,0 +1,77 @@
+.form-section{
+    margin-bottom: 200px;
+}
+
+.form-container{
+    position: relative;
+   
+}
+
+.svg-sticks-form{
+    position: absolute;
+    bottom: -35px;
+    left: 25px;
+}
+
+.form-background{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    background-color: #000000;
+    border-radius: 32px;
+}
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.par-email{
+font-weight: 400;
+font-size: 18px;
+line-height: 1.5;
+color: #118da8;
+margin-bottom: 10px;
+}
+
+.subscribe-par{
+font-weight: 400;
+font-size: 72px;
+line-height: 1.1;
+letter-spacing: 0.04em;
+width: 430px;
+}
+
+.input-form{
+    border: 1px solid #191919;
+border-radius: 6px;
+width: 522px;
+height: 82px;
+background: #191919;
+border: none;
+padding: 19px 26px;
+}
+
+.btn-form{
+    border: none;
+    border-radius: 6px;
+    width: 87px;
+    height: 48px;
+    background-color: #118da8;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.92;
+    color: rgba(255, 255, 255, 0.7);
+    transition: 0.3s;
+}
+
+.btn-form:hover{
+  background-color: #0b6275 ;
+
+}
+
+
+.sticks-form{
+    z-index: 1;
+}

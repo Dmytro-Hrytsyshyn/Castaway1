@@ -4,6 +4,12 @@
     position: relative;
 }
 
+.svg-hero{
+    position: absolute;
+    top: -25px;
+    left: 40px;
+}
+
 .hero-section{
     margin-bottom: 100px;
 }

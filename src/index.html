@@ -33,7 +33,7 @@
       <div class="container hero-container">
         
         <img class="hero-img" src="./img/hero-img.jpg" alt="hero-photo" width="650" height="870">
-        <svg class="aaaaaa" height="68" width="74" >
+        <svg class="svg-hero" height="68" width="74" >
           <use href="./img/symbol-defs.svg#icon-sticks"></use>
         </svg>
      
@@ -120,15 +120,22 @@
     </section>
 
     <section class="form-section">
-      <div class="container">
+      <div class="container form-container">
+        <div class="form-background">
+          <svg class="svg-sticks-form" width="150" height="90">
+            <use href="./img/symbol-defs.svg#icon-sticks-form"></use>
+          </svg>
+          <div>
         <p class="par-email">Email Newsletter</p>
         <h2 class="subscribe-par">Subscribe for updates</h2>
-        <form action="">
-          <input type="text" required>
-          <input type="email" required>
-          <button></button>
+      </div>
+        <form class="form-inputs" action="">
+          <input class="input-form input-space" type="text" placeholder="Name" required>
+          <input class="input-form" type="email" placeholder="Email" required>
+          <button class="btn-form">Submit</button>
         </form>
       </div>
+    </div>
     </section>
 
     </main>
