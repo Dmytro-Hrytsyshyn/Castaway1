@@ -2,22 +2,136 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@0,9..40;1,9..40&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,700;1,9..40,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.0/modern-normalize.min.css" integrity="sha512-3axTZ/bKFZH5/qLFTl4U+mDbBDFW+5QO5L7D1HnOhlhJbcNDIVJxoNm6It77g0eUdzfKZlHirayqRC2qJaAOJw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Castaway</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
-
+    <header class="header">
+      <div class="container header-container">
+      <a class="logo-link" href=""><svg class="logo-svg" width="160" height="35">
+        <use href="./img/symbol-defs.svg#icon-logo"></use>
+      </svg></a>
+    <nav class="nav-list-header">
+      <ul class="nav-list">
+        <li class="nav-list-item"><a class="nav-list-link" href="">Home</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="">Episodes</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="">About</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="">Contact</a></li>
+      </ul>
+  </nav>
+    </div>
+    </header>
     <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
+
+      <section class="hero-section">
+      <div class="container hero-container">
+        
+        <img class="hero-img" src="./img/hero-img.jpg" alt="hero-photo" width="650" height="870">
+        <svg class="aaaaaa" height="68" width="74" >
+          <use href="./img/symbol-defs.svg#icon-sticks"></use>
+        </svg>
+     
+
+        <div class="hero-right-side-cont">
+        <h1 class="text-hero">Take your podcast to the <span class="text-hero-style-next">next</span> <span class="text-hero-style">level</span></h1>
+        <p class="hero-paragraph">Listen on</p>
+        <ul class="icons-list">
+          <li class="icon-item"><a href=""><svg class="" width="32" height="32">
+            <use href="./img/symbol-defs.svg#icon-spotify"></use>
+          </svg></a></li>
+          <li class="icon-item"><a href=""><svg class="" width="32" height="32">
+            <use href="./img/symbol-defs.svg#icon-orange"></use>
+          </svg></a></li>
+          <li class="icon-item music"><a href=""><svg class="" width="32" height="32">
+            <use href="./img/symbol-defs.svg#icon-music"></use>
+          </svg></a></li>
+          <li class="icon-item"><a href=""><svg class="" width="32" height="32">
+            <use href="./img/symbol-defs.svg#icon-antena"></use>
+          </svg></a></li>
+          <li class="icon-item"><a href=""><svg class="" width="32" height="32">
+            <use href="./img/symbol-defs.svg#icon-wifi"></use>
+          </svg></a></li>
+          
+        </ul>
+      </div>
+      </div>
+    </section>
+
+    <section class="episodes-section">
+      <div class="container">
+        <h2 class="name-section-episodes">Latest episodes</h2>
+
+        <ul class="episodes-list">
+          <li class="episodes-list-item">
+            <img class="img-card-episodes" src="./img/gear_img.jpg" alt="" width="390" height="465">
+            <div class="container-episod-content">
+            <p class="par-gear">Gear</p>
+            <p class="par-episode">Episode 3</p>
+            <h3 class="name-card">Should you get outboard audio gear?</h3>
+            <p class="main-par-card">Is hardware really worth it when it comes to podcasting? The answer is...it depends. 
+              Here’s our reasons on why you might want to consider picking something up.</p>
+              <button class="all-button">View Episode Details</button>
+            </div>
+          </li>
+
+          <li class="episodes-list-item">
+            <img class="img-card-episodes" src="./img/episode_2.jpg" alt="" width="390" height="465">
+            <div class="container-episod-content">
+            <p class="par-gear">Tips & Tricks</p>
+            <p class="par-episode">Episode 2</p>
+            <h3 class="name-card">Mic tricks to take you to the next level</h3>
+            <p class="main-par-card">Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.</p>
+              <button class="all-button">View Episode Details</button>
+            </div>
+          </li>
+
+          <li class="episodes-list-item">
+            <img class="img-card-episodes" src="./img/episode_1.jpg" alt="" width="390" height="465">
+            <div class="container-episod-content">
+            <p class="par-gear">Gear</p>
+            <p class="par-episode">Episode 1</p>
+            <h3 class="name-card">The best microphone under $200</h3>
+            <p class="main-par-card">With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks.</p>
+              <button class="all-button">View Episode Details</button>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <section class="about-jacob-section">
+      <div class="container jacob-container">
+        <div class="jacob-bio-container">
+          <a class="link-bio" href=""><div class="circle"> <img src="./img/stilka.png" alt="" width="70" height="40"></div></a>
+      <p class="par-host">Meet your host</p>
+      <h2 class="name-jacob">Jacob Paulaner</h2>
+      <p class="about-me about-me-space">Jacob has a background in audio engineering, and has been podcasting since the early days.</p>
+      <p class="about-me">He’s here to help you level up your game by sharing everything he’s learned along the way.</p>
+    </div>
+      <img class="img-jacob" src="./img/man-microphone.jpg" alt="" width="650" height="740">
+    </div>
+    </section>
+
+    <section class="form-section">
+      <div class="container">
+        <p class="par-email">Email Newsletter</p>
+        <h2 class="subscribe-par">Subscribe for updates</h2>
+        <form action="">
+          <input type="text" required>
+          <input type="email" required>
+          <button></button>
+        </form>
+      </div>
+    </section>
+
     </main>
-
-    <load src="./partials/footer.html" />
-
-    <script type="module" src="main.js"></script>
-  </body>
+    <footer></footer>
+  </body> 
 </html>

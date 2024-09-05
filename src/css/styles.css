@@ -1,18 +1,68 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-/* Common styles */
-@import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
-
-/* Sections style */
 @import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+@import url('./hero.css');
+@import url('./episodes.css');
+@import url('./about-jacob.css');
+
+h1,h2,h3,h4,h5,h6,p{
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+
+  *{
+    font-family: "DM Sans", sans-serif;
+     
+    color: #ffffff;
+    font-weight: 400;
+
+  }
+
+  body{
+    background-color: #191919;
+  }
+  
+  ul,
+  ol{
+    list-style-type: none; 
+    margin: 0;
+    padding: 0; 
+  }
+  
+  a {
+      text-decoration: none;
+  }
+
+  button {
+      padding: 0;
+      cursor: pointer;
+  } 
+
+  address {
+      font-style: normal
+  }
+  
+  
+.container{
+max-width: 1305px;
+margin: 0 auto;
+padding: 0 70px;
+}
+
+.all-button{
+  border-radius: 6px;
+  padding: 12px 15px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: #118da8;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.all-button:hover{
+  background-color: #0b6275 ;
+}
+  
+
+
+

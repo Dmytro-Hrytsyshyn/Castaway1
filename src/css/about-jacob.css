@@ -1,0 +1,62 @@
+.about-jacob-section{
+    margin-bottom: 200px;
+}
+
+.jacob-container{
+    display:flex;
+}
+
+.jacob-bio-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.par-host{
+    font-weight: 400;
+    font-size: 18px;
+    color: #118da8;
+}
+
+.name-jacob{
+    font-weight: 400;
+    font-size: 65px;
+    letter-spacing: 0.04em;
+    margin-bottom: 30px;
+}
+
+.about-me{
+font-weight: 400;
+font-size: 22px;
+line-height: 1.5;
+color: rgba(255, 255, 255, 0.7);
+}
+
+.about-me-space{
+    margin-bottom: 30px;
+}
+
+.img-jacob{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+
+.link-bio{
+display: inline-flex;
+border-radius: 400px;
+margin-bottom: 20px;
+}
+
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 400px;
+    width: 112px;
+    height: 112px;
+    background: #118da8;
+}

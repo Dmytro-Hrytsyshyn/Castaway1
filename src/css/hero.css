@@ -1,0 +1,50 @@
+.hero-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.hero-section{
+    margin-bottom: 100px;
+}
+
+.hero-img{
+    border-radius: 15px;
+}
+.hero-right-side-cont{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+min-width: 530px;
+}
+
+.text-hero{
+    font-size: 70px;
+    line-height: 1.25;
+    letter-spacing: 0.05em;
+    margin-bottom: 90px;
+}
+
+.text-hero-style-next{
+    font-size: 75px;
+}
+
+.text-hero-style{
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.hero-paragraph{
+    margin-bottom: 16px;
+}
+
+.icons-list{
+    display: flex;
+    gap: 20px;
+}
+
+.left-stick{
+position: absolute;
+top: 50px;
+left: 44px;
+}

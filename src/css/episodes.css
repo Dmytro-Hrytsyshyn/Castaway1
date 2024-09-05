@@ -1,0 +1,67 @@
+.episodes-section{
+margin-bottom: 260px;
+}
+
+.name-section-episodes{
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: 0.05em;
+    color: #fff;
+    margin-bottom: 65px;
+}
+
+.episodes-list{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.episodes-list-item{
+    display: flex;
+    border-radius: 32px;
+    background-color: #000000;
+    padding: 40px;
+}
+
+.img-card-episodes{
+    margin-right: 55px;
+}
+
+.par-gear{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+    padding: 5px 16px;
+    background: #191919;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.par-episode{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.58824;
+    color: #118da8;
+    margin-bottom: 20px;
+}
+
+.name-card{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1.1;
+    letter-spacing: 0.04em;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.main-par-card{
+font-weight: 400;
+font-size: 22px;
+line-height: 1.5;
+color: rgba(255, 255, 255, 0.7);
+margin-bottom: 20px;
+}
+
