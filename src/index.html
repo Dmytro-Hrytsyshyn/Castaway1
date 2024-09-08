@@ -7,6 +7,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@0,9..40;1,9..40&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,700;1,9..40,700&display=swap" rel="stylesheet">
+    <link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.0/modern-normalize.min.css" integrity="sha512-3axTZ/bKFZH5/qLFTl4U+mDbBDFW+5QO5L7D1HnOhlhJbcNDIVJxoNm6It77g0eUdzfKZlHirayqRC2qJaAOJw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Castaway</title>
     <link rel="stylesheet" href="./css/styles.css" />
@@ -19,16 +22,15 @@
       </svg></a>
     <nav class="nav-list-header">
       <ul class="nav-list">
-        <li class="nav-list-item"><a class="nav-list-link" href="">Home</a></li>
-        <li class="nav-list-item"><a class="nav-list-link" href="">Episodes</a></li>
-        <li class="nav-list-item"><a class="nav-list-link" href="">About</a></li>
-        <li class="nav-list-item"><a class="nav-list-link" href="">Contact</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="/">Home</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="#episodes">Episodes</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="#about">About</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="#contact">Contact</a></li>
       </ul>
   </nav>
     </div>
     </header>
     <main>
-
       <section class="hero-section">
       <div class="container hero-container">
         
@@ -63,7 +65,7 @@
       </div>
     </section>
 
-    <section class="episodes-section">
+    <section id="episodes" class="episodes-section">
       <div class="container">
         <h2 class="name-section-episodes">Latest episodes</h2>
 
@@ -106,7 +108,7 @@
       </div>
     </section>
 
-    <section class="about-jacob-section">
+    <section id="about" class="about-jacob-section">
       <div class="container jacob-container">
         <div class="jacob-bio-container">
           <a class="link-bio" href=""><div class="circle"> <img src="./img/stilka.png" alt="" width="70" height="40"></div></a>
@@ -138,7 +140,224 @@
     </div>
     </section>
 
+    <section class="reviews-section splide" aria-label="Splide Basic HTML Example">
+      <div class="container splide__track">
+      <ul class="reviews-list splide__list">
+
+        <li class="review-card splide__slide">
+          <div class="icon-star-container">
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+        </div>
+          <h3 class="review-title">I can’t recommend this podcast enough</h3>
+          <p class="review-name-people">Betty Lacey</p>
+        </li>
+      
+        <li class="review-card splide__slide">
+
+          <div class="icon-star-container">
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          </div>
+
+          <h3 class="review-title">Jacob is the best in the business</h3>
+          <p class="review-name-people">Adam Driver</p>
+        </li>
+
+        <li class="review-card splide__slide">
+           <div class="icon-star-container">
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          </div>
+
+          <h3 class="review-title">A wealth of audio knowledge</h3>
+          <p class="review-name-people">Marcus Brown</p>
+        </li>
+
+        <li class="review-card splide__slide">
+           <div class="icon-star-container">
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          </div>
+
+          <h3 class="review-title">Every episode is a gem!</h3>
+          <p class="review-name-people">Jessica Knowl</p>
+        </li>
+
+        <li class="review-card splide__slide">
+           <div class="icon-star-container">
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          </div>
+
+          <h3 class="review-title">Whoa whoa, let me take some notes!</h3>
+          <p class="review-name-people">Scott Adams</p>
+        </li>
+
+        <li class="review-card splide__slide">
+          
+          <div class="icon-star-container">
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          <svg class="reviews-star-icon" width="17" height="16">
+            <use href="./img/symbol-defs.svg#icon-star"></use>
+          </svg>
+          </div>
+
+          <h3 class="review-title">I’ve upped my game considerably since I started listening</h3>
+          <p class="review-name-people">Steven Blast</p>
+        </li>
+      </ul>
+  </div>
+    </section>
     </main>
-    <footer></footer>
+    <footer class="footer" id="contact">
+
+     <div class="container footer-container">
+
+      <div class="logo-icons-container">
+      <a href="link-icon-footer"><svg class="" width="220" height="45">
+        <use href="./img/symbol-defs.svg#icon-logo"></use>
+      </svg>
+    </a>
+      <div class="icons-footer-container">
+      <a href="link-icon-footer"><svg class="icon-footer" width="24" height="24">
+        <use href="./img/symbol-defs.svg#icon-insta-footer"></use>
+      </svg></a>
+
+      <a href="link-icon-footer"><svg class="icon-footer" width="24" height="24">
+        <use href="./img/symbol-defs.svg#icon-twiter-footer"></use>
+      </svg></a>
+
+      <a href="link-icon-footer"><svg class="icon-footer" width="24" height="24">
+        <use href="./img/symbol-defs.svg#icon-facebook-footer"></use>
+      </svg></a>
+    </div>
+    </div>
+
+    <nav class="nav-list-header">
+      <ul class="nav-list-footer">
+        <li class="nav-list-item"><a class="nav-list-link" href="">Home</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="">Episodes</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="">About</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="">Contact</a></li>
+      </ul>
+  </nav>
+
+    <div>
+      <ul class="nav-list-footer">
+        <li class="nav-list-item"><a class="nav-list-link" href="">Style Guide</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="">Instructions</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="">Changelog</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="">Credit</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="">Powered by Webflow</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="">Licenses</a></li>
+      </ul>
+    </div>
+
+    <div>
+
+    </div>
+    <ul class="icons-list">
+      <li class="icon-item"><a href=""><svg class="" width="32" height="32">
+        <use href="./img/symbol-defs.svg#icon-spotify"></use>
+      </svg></a></li>
+      <li class="icon-item"><a href=""><svg class="" width="32" height="32">
+        <use href="./img/symbol-defs.svg#icon-orange"></use>
+      </svg></a></li>
+      <li class="icon-item music"><a href=""><svg class="" width="32" height="32">
+        <use href="./img/symbol-defs.svg#icon-music"></use>
+      </svg></a></li>
+      <li class="icon-item"><a href=""><svg class="" width="32" height="32">
+        <use href="./img/symbol-defs.svg#icon-antena"></use>
+      </svg></a></li>
+      <li class="icon-item"><a href=""><svg class="" width="32" height="32">
+        <use href="./img/symbol-defs.svg#icon-wifi"></use>
+      </svg></a></li>
+      
+    </ul>
+
+
+
+     </div>
+    </footer>
+    <script src="node_modules/@barba/core/dist/barba.umd.js"></script>
+
+    <script type="module" src="./aos.js"></script>
   </body> 
 </html>

@@ -1,0 +1,24 @@
+.footer{
+    margin-bottom: 100px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-icons-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.icons-footer-container{
+    display: flex;
+    gap: 10px;
+}
+
+.nav-list-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
