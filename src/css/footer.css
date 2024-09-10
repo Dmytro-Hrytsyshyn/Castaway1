@@ -23,39 +23,6 @@
     gap: 10px;
 }
 
-
-
-
-.scrollToTopBtn {
-    display: none; 
-    position: fixed; 
-    bottom: 100px;
-    right: 100px;
-    width: 80px;
-    height:60px;   
-     font-size: 18px;
-    background: #118da8;
-    color: white;
-    border: none;
-    border-radius: 100px;
-    cursor: pointer;
-    z-index: 1000; 
-    transition: 0.3s;
-  }
+.icon-footer{
   
-  .scrollToTopBtn:hover {
-    background-color: #ffffff ;
-  }
-
-  .icon-up{
-    fill: #fff;
-    transition: 0.3s;
-  }
-
-  .scrollToTopBtn:hover .icon-up {
-    fill: #118da8;
-  } 
-
-
-
-
+}

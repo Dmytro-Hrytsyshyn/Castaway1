@@ -28,29 +28,29 @@
 }
 
 .par-email{
-font-weight: 400;
-font-size: 18px;
-line-height: 1.5;
-color: #118da8;
-margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #118da8;
+    margin-bottom: 10px;
 }
 
 .subscribe-par{
-font-weight: 400;
-font-size: 72px;
-line-height: 1.1;
-letter-spacing: 0.04em;
-width: 430px;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 1.1;
+    letter-spacing: 0.04em;
+    width: 430px;
 }
 
 .input-form{
     border: 1px solid #191919;
-border-radius: 6px;
-width: 522px;
-height: 82px;
-background: #191919;
-border: none;
-padding: 19px 26px;
+    border-radius: 6px;
+    width: 522px;
+    height: 82px;
+    background: #191919;
+    border: none;
+    padding: 19px 26px;
 }
 
 .btn-form{

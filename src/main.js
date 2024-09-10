@@ -13,29 +13,20 @@ const splide = new Splide('.splide', {
 }).mount({ AutoScroll });
 
 
-
-
-
-
-
-
-// script.js
-// Отримати кнопку
 const scrollToTopBtn = document.querySelector('.scrollToTopBtn');
 
-// Показувати/сховувати кнопку в залежності від прокрутки
 window.onscroll = function() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    scrollToTopBtn.style.display = 'block'; // Показати кнопку
+    scrollToTopBtn.style.display = 'block';
   } else {
-    scrollToTopBtn.style.display = 'none'; // Сховати кнопку
+    scrollToTopBtn.style.display = 'none';
   }
 };
 
-// Прокрутка до верху при натисканні на кнопку
+
 scrollToTopBtn.onclick = function() {
   window.scrollTo({
     top: 0,
-    behavior:'smooth' // Плавна прокрутка
+    behavior:'smooth'
   });
 };

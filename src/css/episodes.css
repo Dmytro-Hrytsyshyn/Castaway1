@@ -1,5 +1,5 @@
 .episodes-section{
-margin-bottom: 260px;
+    margin-bottom: 260px;
 }
 
 .name-section-episodes{
@@ -58,10 +58,10 @@ margin-bottom: 260px;
 }
 
 .main-par-card{
-font-weight: 400;
-font-size: 22px;
-line-height: 1.5;
-color: rgba(255, 255, 255, 0.7);
-margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 20px;
 }
 
